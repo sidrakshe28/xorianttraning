@@ -1,0 +1,12 @@
+h3{
+ text-align: center;
+}
+ p{
+     background-color: aliceblue;
+     font-family: 'Courier New', Courier, monospace;
+ }
+ #para{
+     background-color:khaki;
+     width: 20%;
+     justify-content: center;
+ }
