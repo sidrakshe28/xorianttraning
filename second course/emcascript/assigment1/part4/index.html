@@ -1,0 +1,29 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Page Title</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <script src='main.js'></script>
+</head>
+<body>
+    <script>
+        const getEmailFragments = (email) => email.split(/@(?=[^@]*$)/);
+        
+        [ // LIST OF VALID EMAILS:
+          `info@example.com`,
+          `john@doe@example.com`,
+          `"john@@".doe@example.com`,
+          `"j@hn".d@e@example.com`,
+        ]
+        .forEach(email => {
+          const [name, domain] = getEmailFragments(email);
+          console.log("DOMAIN: %s NAME: %s ", domain, name);
+        });
+        </script>
+    
+</body>
+</html>
