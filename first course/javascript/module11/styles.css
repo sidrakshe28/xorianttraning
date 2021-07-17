@@ -1,0 +1,9 @@
+#choice option { color: black; }
+.empty { color: gray; }
+
+*{
+    background-color: beige;
+}
+#choice{
+    display: inline-block;
+}

@@ -1,0 +1,48 @@
+p{
+    margin: auto;
+    padding: 100px;
+    background-color: beige;
+}
+h1{
+    text-align: center;
+    text-shadow: 1px 1px;
+}
+h1:hover{
+  text-decoration: aqua;
+ 
+}
+
+a.button{
+	height: 30px;
+  margin: 0;
+  position: absolute;
+  top: 80%;
+  padding-left: 700px;
+
+	background-color: transparent;
+	background-image: url("images/button_normal_right.png");
+	background-repeat: no-repeat;
+	
+	background-position: top right;
+	
+	float:left;
+	display:block;
+	
+	padding-right: 10px;
+}
+a.button:hover{
+	background-image: url("images/button_hover_right.png");
+}
+
+a.button span{
+	background-color: transparent;
+	background-image: url("images/button_normal_left.png");
+	
+	line-height: 20px;
+	display:block;
+	
+	padding: 5px 0 5px 10px;
+}
+a.button:hover span{
+	background-image: url("images/button_hover_left.png");
+}
